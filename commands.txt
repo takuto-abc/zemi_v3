@@ -1,0 +1,41 @@
+composer create-project --prefer-dist laravel/laravel zemi_v2
+
+cd zemi_v2
+php artisan serve
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=zemi_v2_db
+DB_USERNAME=root
+DB_PASSWORD=Uq9QtWgH
+
+php artisan make:model Post -m
+
+ Commands end with ; or \g.
+
+ CREATE DATABASE zemi_v2;
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'Uq9QtWgH';
+FLUSH PRIVILEGES;
+
+mysql -u root -p
+exit;
+
+GRANT ALL PRIVILEGES ON zemi_v2_db.* TO 'root'@'localhost' IDENTIFIED BY 'Uq9QtWgH';
+FLUSH PRIVILEGES;
+
+php artisan make:model Students -m
+
+php artisan make:model Students -m
+php artisan migrate
+
+php artisan make:controller PageController
+
+php artisan serve
+
+-PageControllerの確認
+-ルーティングの確認
+-ビューの確認
+-レイアウトの確認
+-画像ファイルの配置
