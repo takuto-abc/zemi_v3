@@ -23,19 +23,19 @@
                 <img src="{{ asset('images/IMG_7419.JPG') }}" class="d-block w-100" alt="ゼミ写真1">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('images/IMG_7420.JPG') }}" class="d-block w-100" alt="ゼミ写真2">
+                <img src="{{ asset('images/IMG_7415.JPG') }}" class="d-block w-100" alt="ゼミ写真2">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('images/IMG_7421.JPG') }}" class="d-block w-100" alt="ゼミ写真3">
+                <img src="{{ asset('images/IMG_7416.JPG') }}" class="d-block w-100" alt="ゼミ写真3">
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('images/IMG_7417.JPG') }}" class="d-block w-100" alt="ゼミ写真4">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('images/IMG_7416.jpg') }}" class="d-block w-100" alt="ゼミ写真5">
+                <img src="{{ asset('images/IMG_7421.jpg') }}" class="d-block w-100" alt="ゼミ写真5">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('images/IMG_7415.jpg') }}" class="d-block w-100" alt="ゼミ写真6">
+                <img src="{{ asset('images/IMG_7420.jpg') }}" class="d-block w-100" alt="ゼミ写真6">
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('images/IMG_7414.jpg') }}" class="d-block w-100" alt="ゼミ写真7">
