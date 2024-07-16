@@ -4,6 +4,7 @@
 
 @section('content')
     <h1 class="text-center">ゼミ生のプロフィール一覧</h1>
+    <br>
     <div class="row">
         @foreach($students as $student)
             <div class="col-md-6">
