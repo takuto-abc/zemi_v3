@@ -39,3 +39,9 @@ php artisan serve
 -ビューの確認
 -レイアウトの確認
 -画像ファイルの配置
+
+
+DB::table('student')->get();
+
+20 15
+21 16
